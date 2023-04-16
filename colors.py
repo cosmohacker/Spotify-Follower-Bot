@@ -36,7 +36,6 @@ def white():
 def reset():
     return '\u001b[0m'
 
-# Background colors
 def b_black():
     return '\u001b[40;1m'
 
@@ -62,5 +61,4 @@ def b_white():
     return '\u001b[47;1m'
 
 if __name__ == '__main__':
-    print('You are not supposed to run this program.\nThis was made to be a module.')
     os.system('pause >NUL')
